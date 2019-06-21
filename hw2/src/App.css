@@ -1,0 +1,49 @@
+.nav-links {
+    list-style-type: none;
+    background-color: ghostwhite;
+    border-bottom: .5px solid darkgray;
+    text-align: center;
+}
+
+.title {
+    color: red;
+    line-height: 2;
+}
+
+.text {
+    font-weight: bold;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 400px;
+    text-align: center;
+    border: 1px solid grey;
+    background-color: tan;
+    border-radius: 10px;
+    z-index: 1010;
+}
+
+.modelContent {
+    max-width: 350px;
+    min-height: 150px;
+    text-align: center;
+    margin: 30% auto;
+}
+
+.modalWrap {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    height: 100%;
+}
